@@ -3,7 +3,7 @@ import { makeStyles, CssBaseline, createMuiTheme, ThemeProvider } from '@materia
 import PageHeader from '../components/PageHeader'
 import Employees from "../pages/Employees/Employees";
 import PeopleOutlineTwoToneIcon from '@material-ui/icons/PeopleOutlineTwoTone';
-import Confirm from '../components/Confirm';
+// import Confirm from '../components/Confirm';
 
 const theme = createMuiTheme({
   palette: {
@@ -60,7 +60,7 @@ function App() {
       </div>
       <CssBaseline />
     </ThemeProvider>
-    <Confirm />
+    {/* <Confirm /> */}
      </div>
   );
 

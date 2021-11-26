@@ -1,14 +1,14 @@
-import { makeObservable, observable } from 'mobx';
+// import { makeObservable, observable } from 'mobx';
 
-class Store{
-    users = [];
+// class Store{
+//     users = [];
 
-    constructor( ){
-        makeObservable(this, {
-            users: observable,
-        })
-    }
-}
+//     constructor( ){
+//         makeObservable(this, {
+//             users: observable,
+//         })
+//     }
+// }
 
 
-export default new Store();
+// export default new Store();
